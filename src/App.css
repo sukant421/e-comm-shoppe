@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.d-flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-block-center{
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box{
+  width: 700px;
+}
+
+@media (max-width: 786px){
+  .user-tab{
+    display: none;
+  }
+
+  .brand-logo{
+    margin: auto;
+  }
+}
+
+@media (min-width: 1024px){
+  .hide-div{
+    display: none;
+  }
+
+  .brand-logo{
+    margin: auto;
+  }
+}
+
+.color-white{
+  color: white;
+}
+
+
+
+.nav-bar{
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.cat-btn{
+  padding: 10px;
+}
+
+.border-red{
+  border: red;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.h-100{
+  height: 100vh;
+}
+.w-100{
+  width: 100vw;
+}
+
+.of-y-hidden{
+  overflow-y: hidden;
+}
+
+.of-x-scroll{
+  overflow-x: scroll;
+}
+
+.of-hidden{
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.cat-active{
+  background-color: white;
+  width: 150px;
+  text-align: center;
+}
+
+.sub-nav{
+  background-color: gainsboro;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
