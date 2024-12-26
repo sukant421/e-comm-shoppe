@@ -30,15 +30,15 @@ export default function WidgetTray({widgetType = "rectangle"}) {
       style={{ height: 'max-content' }}
     >{widgetType === "rounded" &&
         <div className="p-2 d-flex of-y-hidden of-x-scroll">
-      <RoundedWidgets imageSource={circleWiz1} />
-      <RoundedWidgets imageSource={circleWidget3} />
-      <RoundedWidgets imageSource={circlewiz14} />
-      <RoundedWidgets imageSource={circlewiz8} />
-      <RoundedWidgets imageSource={circlewizet2} />
-      <RoundedWidgets imageSource={circlewiz15} />
-      <RoundedWidgets imageSource={circleWiz1} />
-      <RoundedWidgets imageSource={circleWiz1} />
-      <RoundedWidgets imageSource={circleWiz1} />
+      <RoundedWidgets imageSource={circleWiz1} widgetName="Trending"/>
+      <RoundedWidgets imageSource={circleWidget3} widgetName="Grab It"/>
+      <RoundedWidgets imageSource={circlewiz14} widgetName="Winterwear"/>
+      <RoundedWidgets imageSource={circlewiz8} widgetName="Bestsellers"/>
+      <RoundedWidgets imageSource={circlewizet2} widgetName="Tops"/>
+      <RoundedWidgets imageSource={circlewiz15} widgetName="Hoodies"/>
+      <RoundedWidgets imageSource={circleWiz1} widgetName="Bottons"/>
+      <RoundedWidgets imageSource={circleWiz1} widgetName="Plus Size"/>
+      <RoundedWidgets imageSource={circleWiz1} widgetName="T-shirts"/>
       </div> 
     }
     {widgetType === "rectangle" &&
