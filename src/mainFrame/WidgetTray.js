@@ -30,26 +30,26 @@ export default function WidgetTray({widgetType = "rectangle"}) {
       style={{ height: 'max-content' }}
     >{widgetType === "rounded" &&
         <div className="p-2 d-flex of-y-hidden of-x-scroll">
-      <RoundedWidgets imageSource={circleWiz1} widgetName="Trending"/>
-      <RoundedWidgets imageSource={circleWidget3} widgetName="Grab It"/>
-      <RoundedWidgets imageSource={circlewiz14} widgetName="Winterwear"/>
-      <RoundedWidgets imageSource={circlewiz8} widgetName="Bestsellers"/>
-      <RoundedWidgets imageSource={circlewizet2} widgetName="Tops"/>
-      <RoundedWidgets imageSource={circlewiz15} widgetName="Hoodies"/>
-      <RoundedWidgets imageSource={circleWiz1} widgetName="Bottons"/>
-      <RoundedWidgets imageSource={circleWiz1} widgetName="Plus Size"/>
-      <RoundedWidgets imageSource={circleWiz1} widgetName="T-shirts"/>
+      <RoundedWidgets imageSource={circleWiz1} widgetName="Trending" showAddOption={false}/>
+      <RoundedWidgets imageSource={circleWidget3} widgetName="Grab It" showAddOption={false}/>
+      <RoundedWidgets imageSource={circlewiz14} widgetName="Winterwear" showAddOption={false}/>
+      <RoundedWidgets imageSource={circlewiz8} widgetName="Bestsellers" showAddOption={false}/>
+      <RoundedWidgets imageSource={circlewizet2} widgetName="Tops" showAddOption={false}/>
+      <RoundedWidgets imageSource={circlewiz15} widgetName="Hoodies" showAddOption={false}/>
+      <RoundedWidgets imageSource={circleWiz1} widgetName="Bottons" showAddOption={false}/>
+      <RoundedWidgets imageSource={circleWiz1} widgetName="Plus Size" showAddOption={false}/>
+      <RoundedWidgets imageSource={circleWiz1} widgetName="T-shirts" showAddOption={false}/>
       </div> 
     }
     {widgetType === "rectangle" &&
     <div className="p-2 d-flex of-y-hidden of-x-scroll">
-    <ProductTile imageSource={rectWiget1}/>
-    <ProductTile imageSource={rectWidget3}/>
-    <ProductTile imageSource={rectwidget5}/>
-    <ProductTile imageSource={rectwidget4}/>
-    <ProductTile imageSource={rectwiz1}/>
-    <ProductTile imageSource={rectWidget3}/>
-    <ProductTile imageSource={rectWidget3}/>
+    <ProductTile imageSource={rectWiget1} showAddOption={false}/>
+    <ProductTile imageSource={rectWidget3} showAddOption={false}/>
+    <ProductTile imageSource={rectwidget5} showAddOption={false}/>
+    <ProductTile imageSource={rectwidget4} showAddOption={false}/>
+    <ProductTile imageSource={rectwiz1} showAddOption={false}/>
+    <ProductTile imageSource={rectWidget3} showAddOption={false}/>
+    <ProductTile imageSource={rectWidget3} showAddOption={false}/>
   
   </div>}
   {widgetType === "largeTile" &&

@@ -1,5 +1,6 @@
 import React from 'react'
 import WidgetTray from './WidgetTray'
+import TopNav from '../navBar/TopNav'
 
 export default function DashBoard() {
   return (

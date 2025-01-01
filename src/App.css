@@ -34,6 +34,17 @@
   justify-content: center;
 }
 
+.d-flex-align-center{
+  display: flex;
+  align-items: center;
+}
+
+.d-flex-space_btwn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .d-block-center{
   display: block;
   align-items: center;
@@ -49,8 +60,18 @@
     display: none;
   }
 
-  .brand-logo{
+  /* .brand-logo{
     margin: auto;
+  } */
+
+  .adj-small-width{
+    width: 42vw;
+    height: 60vw;
+    overflow: hidden;
+  }
+
+  .h-12{
+    height: 12vw;
   }
 }
 
@@ -59,10 +80,33 @@
     display: none;
   }
 
+  .adj-desktop-width{
+    width: 18vw;
+    height: 26vw;
+  }
+
+  .h-5{
+    height: 4vw;
+  }
+
 }
 
-.color-white{
-  color: white;
+
+
+.h-8{
+  height: 8vw;
+}
+
+.color-gray{
+  color: #f1f1f1;
+}
+
+.pos-relative{
+  position: relative
+}
+
+.pos-abs{
+  position: absolute;
 }
 
 
@@ -75,7 +119,10 @@
 }
 
 .cat-btn{
-  padding: 10px;
+  margin-inline: 1vw;
+  padding-inline: 2vw;
+  width: max-content;
+  text-align: center;
 }
 
 .border-red{
@@ -108,12 +155,13 @@
 
 .cat-active{
   background-color: white;
-  width: 100px;
+  width: max-content;
   text-align: center;
+  font-weight: 500;
 }
 
 .sub-nav{
-  background-color: gainsboro;
+  background-color: rgb(234, 234, 234);
 }
 
 @keyframes App-logo-spin {
