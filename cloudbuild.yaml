@@ -1,0 +1,28 @@
+steps:
+  # Step 1: Install dependencies
+  - name: "node:20"
+    entrypoint: "npm"
+    args: ["install"]
+
+  # Step 2: Build the React app
+  - name: "node:16"
+    entrypoint: "npm"
+    args: ["run", "build"]
+
+  # Step 3: Deploy to Cloud Run
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      - "run"
+      - "deploy"
+      - "react-app"
+      - "--source"
+      - "."
+      - "--platform"
+      - "managed"
+      - "--region"
+      - "asia-south1"
+      - "--allow-unauthenticated"
+      - "--project"
+      - "frontend-446914"
+
+timeout: 900s

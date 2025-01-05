@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a95f520.css",
+    "main.js": "/static/js/main.170af285.js",
+    "static/js/488.9388bbc0.chunk.js": "/static/js/488.9388bbc0.chunk.js",
+    "static/media/circlewiz14.webp": "/static/media/circlewiz14.bc34f23b29249cb19300.webp",
+    "static/media/rectwiz13.jpg": "/static/media/rectwiz13.7e67cf7417166166ac72.jpg",
+    "static/media/rectWiget1.jpg": "/static/media/rectWiget1.022fefd4a716c0a8fd86.jpg",
+    "static/media/rectwidget4.jpg": "/static/media/rectwidget4.f38edd7ce54f55112792.jpg",
+    "static/media/rectwidget5.jpg": "/static/media/rectwidget5.b8ec0ed62a3d5d8b8863.jpg",
+    "static/media/rectwiz1.webp": "/static/media/rectwiz1.c1e7c960e9be7d255b95.webp",
+    "static/media/carouselImage1.jpg": "/static/media/carouselImage1.433f0d76d930e256ae5a.jpg",
+    "static/media/rectWidget3.jpg": "/static/media/rectWidget3.2cd53fce58cabb471a05.jpg",
+    "static/media/circlewiz8.jpg": "/static/media/circlewiz8.2dbceef0ec40b149b307.jpg",
+    "static/media/carouselImage2.jpg": "/static/media/carouselImage2.46c616b0d529c1cb8391.jpg",
+    "static/media/circlewizet2.jpg": "/static/media/circlewizet2.893ce37089a6b35a0385.jpg",
+    "static/media/rectwiz10.webp": "/static/media/rectwiz10.ee31b387b4128b3c17e2.webp",
+    "static/media/circlewiz15.avif": "/static/media/circlewiz15.6e63fcb233ba3fead432.avif",
+    "static/media/rectwiz12.jpg": "/static/media/rectwiz12.73aac1a9256f41823531.jpg",
+    "static/media/circleWiz1.jpg": "/static/media/circleWiz1.9432dd37d9d1a6d84a43.jpg",
+    "static/media/bannerImage.webp": "/static/media/bannerImage.155eac971614b046caab.webp",
+    "static/media/circleWidget3.webp": "/static/media/circleWidget3.96054ff68bc11560610e.webp",
+    "static/media/rectwiz6.avif": "/static/media/rectwiz6.d8a7edd61b21459b7cd8.avif",
+    "static/media/carouselImage3.avif": "/static/media/carouselImage3.2d03f0203c9abcc62e3b.avif",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.2a95f520.css.map": "/static/css/main.2a95f520.css.map",
+    "main.170af285.js.map": "/static/js/main.170af285.js.map",
+    "488.9388bbc0.chunk.js.map": "/static/js/488.9388bbc0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a95f520.css",
+    "static/js/main.170af285.js"
+  ]
+}
